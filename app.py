@@ -44,9 +44,9 @@ def upload_file():
 def select_notebook(analysis_type):
     # Mapping analysis types to corresponding notebook file names
     notebook_mapping = {
-        "Standard": "prueba_analisis_IMEx.ipynb", 
-        "Duplicates": "IMEx_Macro_2.ipynb", 
-        "Blanks": "Blanks_report.ipynb"
+        "Standard": "Notebooks/prueba_analisis_IMEx.ipynb", 
+        "Duplicates": "Notebooks/IMEx_Macro_2.ipynb", 
+        "Blanks": "Notebooks/Blanks_report.ipynb"
     }
     return notebook_mapping.get(analysis_type, 'default_report.ipynb')
 
